@@ -15,7 +15,7 @@ def restart_program() :  # defining restart
     python = sys.executable  # making excecutable
     os.execl(python, python, *sys.argv)  # calling the path of executing file
     os.system('clear')
-print(colored(figlet_format(" PantherMap"), color="green"))
+print(colored(figlet_format(" Network_Mapper"), color="green"))
 
 scanner = nmap.PortScanner()  # We all know that, what import nmap is for, to import the nmap module to our
      # python script. Then we initialise the Nmap PortScanner to scan the port on our local machine.
